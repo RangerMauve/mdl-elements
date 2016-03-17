@@ -42,4 +42,6 @@ function handle_change(name) {
 	if (has)
 		this.classList.add(attributeClass);
 	else this.classList.remove(attributeClass);
+
+	window.componentHandler.upgradeElement(this);
 }
