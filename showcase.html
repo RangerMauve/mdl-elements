@@ -1,0 +1,56 @@
+<!doctype html>
+<title>MDL-Elements</title>
+<link rel="stylesheet" href="./node_modules/material-design-lite/material.min.css">
+<script src="./node_modules/material-design-lite/material.min.js"></script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+<script src="./node_modules/document-register-element/build/document-register-element.js"></script>
+<script src="./build/mdl-elements.js"></script>
+<style>
+	html,
+	body {
+		margin: 0px;
+		padding: 0px;
+		font-family: Arial;
+		user-select: none;
+		-webkit-user-select: none;
+	}
+
+	p {
+		display: flex;
+		justify-content: space-around;
+	}
+</style>
+<h1>MDL-Elements</h1>
+<section>
+	<h2>Buttons</h2>
+	<p>
+		<mdl-button>Button</mdl-button>
+		<mdl-button ripple>Button</mdl-button>
+		<mdl-button disabled>Button</mdl-button>
+	</p>
+	<p>
+		<mdl-button raised>Button</mdl-button>
+		<mdl-button raised ripple>Button</mdl-button>
+		<mdl-button raised disabled>Button</mdl-button>
+	</p>
+
+	<p>
+		<mdl-button colored>Button</mdl-button>
+		<mdl-button accented>Button</mdl-button>
+		<mdl-button accented raised>Button</mdl-button>
+	</p>
+
+	<p>
+		<mdl-button colored fab><i class="material-icons">+</i></mdl-button>
+		<mdl-button fab ripple><i class="material-icons">+</i></mdl-button>
+		<mdl-button fab disabled><i class="material-icons">+</i></mdl-button>
+	</p>
+
+	<p>
+		<mdl-button mini fab><i class="material-icons">+</i></mdl-button>
+		<mdl-button mini fab ripple><i class="material-icons">+</i></mdl-button>
+		<mdl-button mini fab disabled><i class="material-icons">+</i></mdl-button>
+	</p>
+
+
+</section>

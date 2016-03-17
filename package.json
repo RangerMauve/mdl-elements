@@ -1,0 +1,33 @@
+{
+  "name": "mdl-elements",
+  "version": "1.0.0",
+  "description": "A set of custom elements wrapping over Material Design Lite",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"bundle": "browserify index.js > build/mdl-elements.js",
+    "watch-bundle": "watchify index.js -o build/mdl-elements.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RangerMauve/mdl-elements.git"
+  },
+  "keywords": [
+    "custom",
+    "elements",
+    "material",
+    "design"
+  ],
+  "author": "rangermauve",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RangerMauve/mdl-elements/issues"
+  },
+  "homepage": "https://github.com/RangerMauve/mdl-elements#readme",
+  "devDependencies": {
+    "browserify": "^13.0.0",
+		"document-register-element": "^0.5.4",
+		"material-design-lite": "^1.1.2",
+    "watchify": "^3.7.0"
+  }
+}
